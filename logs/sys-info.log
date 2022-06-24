@@ -1,0 +1,150 @@
+2022-06-24 14:24:08 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:25:05 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:28:26 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:28:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 14:28:27 [main] INFO  com.blq.BlqApplication - Starting RuoYiApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 1180 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 14:28:27 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 14:28:32 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 14:28:32 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 14:28:33 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 14:29:54 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:29:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 14:29:55 [main] INFO  com.blq.BlqApplication - Starting RuoYiApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 12720 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 14:29:55 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 14:29:58 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 14:29:58 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 14:29:58 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 14:29:59 [redisson-netty-2-2] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:29:59 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:30:51 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:30:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 14:30:51 [main] INFO  com.blq.BlqApplication - Starting RuoYiApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 14144 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 14:30:51 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 14:30:54 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 14:30:54 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 14:30:54 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 14:30:55 [redisson-netty-2-8] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:30:55 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:33:19 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 14:33:19 [main] INFO  com.blq.BlqApplication - Starting RuoYiApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 12756 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 14:33:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 14:33:19 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 14:33:21 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 14:33:21 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 14:33:21 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 14:33:22 [redisson-netty-2-5] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:33:22 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 14:33:22 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-06-24 14:33:23 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-06-24 14:33:25 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-06-24 14:33:25 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-06-24 14:33:25 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-06-24 14:33:25 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-06-24 14:33:28 [main] INFO  io.undertow - starting server: Undertow - 2.2.17.Final
+2022-06-24 14:33:28 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-06-24 14:33:28 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-06-24 14:33:28 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-06-24 14:33:28 [main] INFO  com.blq.BlqApplication - Started RuoYiApplication in 9.617 seconds (JVM running for 10.491)
+2022-06-24 14:33:28 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-06-24 14:33:29 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-06-24 14:33:29 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-06-24 14:33:29 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-06-24 14:33:29 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => image
+2022-06-24 14:33:29 [main] INFO  com.blq.oss.factory.OssFactory - 初始化OSS工厂
+2022-06-24 14:33:29 [main] INFO  c.b.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-06-24 14:33:29 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-06-24 14:33:29 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-06-24 15:25:25 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 15:25:36 [XNIO-1 task-1] INFO  c.b.f.listener.UserActionListener - <0><10818652423086592> user doLogin, userId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiI2RnFJZWlXa3IxVDhZNk9mR0NQWkVyenYxOHhoS1Z1aiJ9.BemEbpc0oYdUeSl1ktEuXZAd_-BmWe9vZ-AB2y_-qCM
+2022-06-24 15:25:36 [schedule-pool-1] INFO  c.b.s.s.i.SysLogininforServiceImpl - <0><10818652423086592> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-06-24 15:31:38 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818676195222016> 发布刷新OSS配置 => minio
+2022-06-24 15:31:46 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818676684907008> 发布刷新OSS配置 => qiniu
+2022-06-24 15:31:52 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818677118689792> 发布刷新OSS配置 => aliyun
+2022-06-24 15:32:00 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818677624103424> 发布刷新OSS配置 => qcloud
+2022-06-24 15:32:08 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818678159073792> 发布刷新OSS配置 => image
+2022-06-24 15:33:45 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10818684537823744> 发布刷新OSS配置 => aliyun
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.17.Final
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.b.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-06-24 18:02:34 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-06-24 20:21:02 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 20:21:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 20:21:03 [main] INFO  com.blq.BlqApplication - Starting BlqApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 8980 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 20:21:03 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 20:21:07 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 20:21:08 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 20:21:08 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 20:21:09 [redisson-netty-2-1] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 20:21:09 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 20:21:10 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-06-24 20:21:11 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-06-24 20:21:12 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-06-24 20:21:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-06-24 20:21:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-06-24 20:21:12 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-06-24 20:21:18 [main] INFO  io.undertow - starting server: Undertow - 2.2.17.Final
+2022-06-24 20:21:18 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-06-24 20:21:18 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-06-24 20:21:18 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-06-24 20:21:18 [main] INFO  com.blq.BlqApplication - Started BlqApplication in 16.503 seconds (JVM running for 28.547)
+2022-06-24 20:21:19 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-06-24 20:21:19 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-06-24 20:21:19 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-06-24 20:21:19 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-06-24 20:21:19 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => image
+2022-06-24 20:21:19 [main] INFO  com.blq.oss.factory.OssFactory - 初始化OSS工厂
+2022-06-24 20:21:19 [main] INFO  c.b.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-06-24 20:21:19 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-06-24 20:21:19 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.17.Final
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.b.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-06-24 20:23:20 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2022-06-24 20:43:34 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false
+2022-06-24 20:43:34 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-24 20:43:34 [main] INFO  com.blq.BlqApplication - Starting BlqApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 9828 (F:\WorkInfo\Muju\Muju\blq-admin\target\classes started by 卜令强 in F:\WorkInfo\Muju\Muju)
+2022-06-24 20:43:34 [main] INFO  com.blq.BlqApplication - The following 1 profile is active: "dev"
+2022-06-24 20:43:37 [main] INFO  c.blq.framework.config.JacksonConfig - 初始化 jackson 配置
+2022-06-24 20:43:38 [main] INFO  com.blq.framework.config.RedisConfig - 初始化 redis 配置
+2022-06-24 20:43:38 [main] INFO  org.redisson.Version - Redisson 3.17.2
+2022-06-24 20:43:39 [redisson-netty-2-2] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 20:43:39 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 49.233.42.135/49.233.42.135:6379
+2022-06-24 20:43:39 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-06-24 20:43:40 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2022-06-24 20:43:41 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2022-06-24 20:43:41 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2022-06-24 20:43:41 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2022-06-24 20:43:41 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-06-24 20:43:47 [main] INFO  io.undertow - starting server: Undertow - 2.2.17.Final
+2022-06-24 20:43:47 [main] INFO  org.xnio - XNIO version 3.8.6.Final
+2022-06-24 20:43:47 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.6.Final
+2022-06-24 20:43:47 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2022-06-24 20:43:47 [main] INFO  com.blq.BlqApplication - Started BlqApplication in 12.99 seconds (JVM running for 17.528)
+2022-06-24 20:43:47 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => minio
+2022-06-24 20:43:47 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qiniu
+2022-06-24 20:43:47 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => aliyun
+2022-06-24 20:43:47 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => qcloud
+2022-06-24 20:43:47 [main] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - 发布刷新OSS配置 => image
+2022-06-24 20:43:47 [main] INFO  com.blq.oss.factory.OssFactory - 初始化OSS工厂
+2022-06-24 20:43:47 [main] INFO  c.b.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2022-06-24 20:43:47 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2022-06-24 20:43:48 [main] INFO  c.b.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2022-06-24 20:45:12 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 20:46:01 [XNIO-1 task-1] INFO  c.b.f.listener.UserActionListener - <0><10819912394555520> user doLogin, userId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiJiU3NqelVIek9ncnZFa1NzNTFpMlIwazRQRk9NdTRVQSJ9.pSPHOJiMx8g0S7BwmuwvS1G2IOPiyI--TWJiIzEnBV8
+2022-06-24 20:46:01 [schedule-pool-1] INFO  c.b.s.s.i.SysLogininforServiceImpl - <0><10819912394555520> [127.0.0.1]内网IP[admin][Success][登录成功]
+2022-06-24 21:04:05 [XNIO-1 task-3] INFO  c.b.s.s.impl.SysOssConfigServiceImpl - <0><10819983426666624> 发布刷新OSS配置 => aliyun
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.17.Final
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.b.f.manager.ShutdownManager - ====关闭后台任务任务线程池====
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-06-24 21:15:57 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye

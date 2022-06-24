@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ff3a175-5e90-46e7-a23e-812b3c47503b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/blq-admin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/blq-admin.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/common/CaptchaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/CacheController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysLogininforController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysOperlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysUserOnlineController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictDataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysIndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysNoticeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysPostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysProfileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/blq-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/blq-framework-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RateLimiterAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RepeatSubmitAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/AsyncConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/CaptchaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig$I18nLocaleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/JacksonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ResourcesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SaTokenConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/TLogConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/UndertowConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ValidatorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/CaptchaProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ExcludeUrlProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/MailProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$CacheGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$ClusterServersConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$SingleServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SecurityProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Groups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ThreadPoolProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/XssProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/CreateAndUpdateMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/PlusDataPermissionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusDataPermissionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusWebInvokeTimeInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/jackson/BigNumberSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/listener/UserActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/manager/ShutdownManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/dao/PlusSaTokenDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/service/SaPermissionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/web/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/blq-generator-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/config/GenConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/controller/GenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTableColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableColumnMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/GenTableServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/IGenTableService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/GenUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/blq-oss-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/constant/OssConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult$UploadResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/enumd/PolicyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/exception/OssException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/factory/OssFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/properties/OssProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/blq-pay-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/OrderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/PayForUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/SnowflakeIdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPayConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WeixinUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WxPayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/XmlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxPayUtil/XMLUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AiLiPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AppWxPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/WxPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/blq-sms-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$AliyunSmsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$TencentSmsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/properties/SmsProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/AliyunSmsTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/SmsTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/TencentSmsTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult$SmsResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/exception/SmsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/blq-system-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysLogininfor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysNotice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOperLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOssConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleDept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserOnline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssBo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssConfigBo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/MetaVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/RouterVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssConfigVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserExportVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserImportVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictDataMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysLogininforMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysNoticeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOperLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysPostMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleDeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserPostMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/runner/SystemApplicationRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDataScopeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictDataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysLogininforService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysNoticeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOperLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysPostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysLoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysPermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysRegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDataScopeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictDataServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysLogininforServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysNoticeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOperLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysPostServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysSensitiveServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mintty.exe.stackdump" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2B0haTO6psWgzxig4N1OoWexWiL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "F:/WorkInfo/Muju/Muju",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "185a9327e9771af63beaf16e2b17471e"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\aliUtils" />
+      <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\wxPayUtil" />
+      <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\utils" />
+      <recent name="F:\WorkInfo\Muju\Muju\blq-common\src\main\java\com\blq\common\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RuoYiApplication (1)">
+    <configuration name="RuoYiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blq-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.blq.BlqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blq-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ff3a175-5e90-46e7-a23e-812b3c47503b" name="Changes" comment="" />
+      <created>1656048975036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656048975036</updated>
+      <workItem from="1656048976629" duration="12905000" />
+      <workItem from="1656071361996" duration="160000" />
+      <workItem from="1656071560665" duration="1113000" />
+      <workItem from="1656072718711" duration="673000" />
+      <workItem from="1656073440261" duration="2527000" />
+      <workItem from="1656077166366" duration="40000" />
+      <workItem from="1656077225405" duration="9000" />
+      <workItem from="1656077264756" duration="107000" />
+      <workItem from="1656077397726" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

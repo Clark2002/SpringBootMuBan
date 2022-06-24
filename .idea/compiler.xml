@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blq-system" />
+        <module name="blq-oss" />
+        <module name="blq-admin" />
+        <module name="blq-common" />
+        <module name="blq-framework" />
+        <module name="blq-generator" />
+        <module name="blq-pay" />
+        <module name="blq-sms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blq-admin" target="1.8" />
+      <module name="blq-common" target="1.8" />
+      <module name="blq-framework" target="1.8" />
+      <module name="blq-generator" target="1.8" />
+      <module name="blq-oss" target="1.8" />
+      <module name="blq-pay" target="1.8" />
+      <module name="blq-sms" target="1.8" />
+      <module name="blq-system" target="1.8" />
+      <module name="blq-vue-plus" target="1.8" />
+      <module name="Muju" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Muju.iml" filepath="$PROJECT_DIR$/.idea/Muju.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-admin/blq-admin.iml" filepath="$PROJECT_DIR$/blq-admin/blq-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-common/blq-common.iml" filepath="$PROJECT_DIR$/blq-common/blq-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-framework/blq-framework.iml" filepath="$PROJECT_DIR$/blq-framework/blq-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-generator/blq-generator.iml" filepath="$PROJECT_DIR$/blq-generator/blq-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-oss/blq-oss.iml" filepath="$PROJECT_DIR$/blq-oss/blq-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-pay/blq-pay.iml" filepath="$PROJECT_DIR$/blq-pay/blq-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-sms/blq-sms.iml" filepath="$PROJECT_DIR$/blq-sms/blq-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-system/blq-system.iml" filepath="$PROJECT_DIR$/blq-system/blq-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blq-vue-plus.iml" filepath="$PROJECT_DIR$/blq-vue-plus.iml" />
+    </modules>
+  </component>
+</project>
