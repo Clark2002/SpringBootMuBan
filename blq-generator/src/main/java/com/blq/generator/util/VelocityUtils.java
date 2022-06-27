@@ -199,7 +199,7 @@ public class VelocityUtils {
         } else if (template.contains("controller.java.vm")) {
             fileName = StringUtils.format("{}/controller/{}Controller.java", javaPath, className);
         } else if (template.contains("mapper.xml.vm")) {
-            fileName = StringUtils.format("{}/{}Mapper.xml", mybatisPath, className);
+            fileName = StringUtils.format("{}/mapper/{}Mapper.xml", javaPath, className);
         } else if (template.contains("sql.vm")) {
             fileName = businessName + "Menu.sql";
         } else if (template.contains("api.js.vm")) {

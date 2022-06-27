@@ -5,250 +5,746 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff3a175-5e90-46e7-a23e-812b3c47503b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/common/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/CacheController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysLogininforController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysOperlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysUserOnlineController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictDataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysNoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysPostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysProfileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/i18n/messages_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-admin/target/classes/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/Anonymous.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/CellMerge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/DataColumn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/DataPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/ExcelDictFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/RateLimiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/RepeatSubmit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/annotation/Sensitive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/captcha/UnsignedMathGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/config/RuoYiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/constant/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/constant/GenConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/constant/UserConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/convert/ExcelBigNumberConvert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/convert/ExcelDictConvert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/PageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/TreeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/dto/OperLogDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/dto/RoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/dto/UserOnlineDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysDictData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysDictType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/model/LoginBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/model/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/model/RegisterBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/model/SmsLoginBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/domain/model/XcxLoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/mapper/BaseMapperPlus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/page/TableDataInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/service/ConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/service/DictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/service/LogininforService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/service/OperLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/service/SensitiveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/validate/AddGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/validate/EditGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/core/validate/QueryGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/BusinessStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/BusinessType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/CaptchaCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/CaptchaType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/DataBaseType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/DataScopeType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/DeviceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/HttpMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/LimitType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/LoginType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/OperatorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/SensitiveStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/UserStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/enums/UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/CellMergeStrategy$RepeatCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/CellMergeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/DefaultExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/DefautExcelResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/ExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/excel/ExcelResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/DemoModeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/GlobalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/UtilException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/base/BaseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/file/FileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/file/FileNameLengthLimitExceededException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/file/FileSizeLimitExceededException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/user/CaptchaException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/user/CaptchaExpireException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/user/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/exception/user/UserPasswordNotMatchException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/RepeatableFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/RepeatedlyRequestWrapper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/RepeatedlyRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/XssFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/XssHttpServletRequestWrapper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/filter/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/helper/DataBaseHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/helper/DataPermissionHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/helper/LoginHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/jackson/SensitiveJsonSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/BeanCopyUtils$BeanCopierCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/BeanCopyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/MessageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/ResultMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/ServletUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/Threads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/TreeBuildUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/ValidatorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/email/MailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/file/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/file/MimeTypeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/ip/AddressUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/poi/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/redis/QueueUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/redis/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/reflect/ReflectUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/spring/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/utils/sql/SqlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/xss/Xss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-common/target/classes/com/blq/common/xss/XssValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/XxlJobAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/annotation/PermissionLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/CookieInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/interceptor/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/controller/resolver/WebExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/JobAlarmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/alarm/impl/EmailJobAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/complete/XxlJobCompleter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/conf/XxlJobAdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/cron/CronExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/exception/XxlJobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogGlue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobLogReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/RemoteHttpJobBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobDynamicScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/old/XxlJobThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/ExecutorRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/MisfireStrategyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/ScheduleTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/scheduler/XxlJobScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobCompleteHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobFailMonitorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobLogReportHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobRegistryHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobScheduleHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/TriggerTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/trigger/XxlJobTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/FtlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/I18nUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/core/util/LocalCacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogGlueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobLogReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobRegistryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/dao/XxlJobUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/service/XxlJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/AdminBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java/com/xxl/job/admin/service/impl/XxlJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/i18n/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/i18n/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/i18n/message_zh_TC.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/Ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/PACE/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/PACE/themes/blue/pace-theme-flash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/fastclick/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/bower_components/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/common.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/jobcode.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/jobgroup.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/jobinfo.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/joblog.detail.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/joblog.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/login.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/js/user.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/powershell/powershell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/cronGen/cronGen_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/jquery/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/static/plugins/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/common/common.exception.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/common/common.macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/help.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/jobcode/jobcode.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/jobgroup/jobgroup.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/jobinfo/jobinfo.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/joblog/joblog.detail.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/joblog/joblog.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources/templates/user/user.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/XxlJobAdminApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobGroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/JobLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/annotation/PermissionLimit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/interceptor/CookieInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/interceptor/PermissionInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/interceptor/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/controller/resolver/WebExceptionResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/alarm/JobAlarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/alarm/JobAlarmer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/alarm/impl/EmailJobAlarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/complete/XxlJobCompleter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/conf/XxlJobAdminConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/cron/CronExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/cron/ValueSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/exception/XxlJobException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobLogGlue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobLogReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/model/XxlJobUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/ExecutorRouteStrategyEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/ExecutorRouter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteBusyover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteConsistentHash.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFailover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteFirst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLFU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLRU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteLast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRandom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/route/strategy/ExecutorRouteRound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/scheduler/MisfireStrategyEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/scheduler/ScheduleTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/scheduler/XxlJobScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobCompleteHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobCompleteHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobCompleteHelper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobCompleteHelper$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobCompleteHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobFailMonitorHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobLogReportHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobLogReportHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobRegistryHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobScheduleHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobScheduleHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobScheduleHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobTriggerPoolHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobTriggerPoolHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobTriggerPoolHelper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/thread/JobTriggerPoolHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/trigger/TriggerTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/trigger/XxlJobTrigger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/CookieUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/FtlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/I18nUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/JacksonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/LocalCacheUtil$LocalCacheData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/core/util/LocalCacheUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobGroupDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobInfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobLogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobLogGlueDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobLogReportDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobRegistryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/dao/XxlJobUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/service/XxlJobService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/service/impl/AdminBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/com/xxl/job/admin/service/impl/XxlJobServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/i18n/message_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/i18n/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/i18n/message_zh_TC.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/mybatis-mapper/XxlJobUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/Ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/Ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/PACE/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/PACE/themes/blue/pace-theme-flash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/fastclick/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/bower_components/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/common.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/jobcode.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/jobgroup.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/jobinfo.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/joblog.detail.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/joblog.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/login.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/js/user.index.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/powershell/powershell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/cronGen/cronGen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/cronGen/cronGen_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/jquery/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/static/plugins/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/common/common.exception.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/common/common.macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/help.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/jobcode/jobcode.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/jobgroup/jobgroup.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/jobinfo/jobinfo.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/joblog/joblog.detail.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/joblog/joblog.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/target/classes/templates/user/user.index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-exent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RateLimiterAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RepeatSubmitAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/AsyncConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/CaptchaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/FilterConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig$I18nLocaleResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/JacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MailConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ResourcesConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SaTokenConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/TLogConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/UndertowConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ValidatorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/CaptchaProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ExcludeUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/MailProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$CacheGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$ClusterServersConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$SingleServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SecurityProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Contact.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Groups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ThreadPoolProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/XssProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/CreateAndUpdateMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/PlusDataPermissionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusDataPermissionInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusWebInvokeTimeInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/jackson/BigNumberSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/listener/UserActionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/manager/ShutdownManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/dao/PlusSaTokenDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/service/SaPermissionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/web/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/config/GenConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/controller/GenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTableColumn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableColumnMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/GenTableServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/IGenTableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/GenUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/generator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/mapper/generator/GenTableColumnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/mapper/generator/GenTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/mapper/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/bo.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/java/vo.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/js/api.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/sql/oracle/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/sql/postgres/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/sql/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/sql/sqlserver/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/vue/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/vue/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/vue/v3/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/vue/v3/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/vue/v3/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-generator/target/classes/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/src/main/java/com/blq/job/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/src/main/java/com/blq/job/config/properties/XxlJobProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/src/main/java/com/blq/job/service/SampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/target/classes/com/blq/job/config/XxlJobConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/target/classes/com/blq/job/config/properties/XxlJobProperties$Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/target/classes/com/blq/job/config/properties/XxlJobProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-job/target/classes/com/blq/job/service/SampleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/constant/OssConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult$UploadResultBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/enumd/PolicyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/exception/OssException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/factory/OssFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/properties/OssProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/OrderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/PayForUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/SnowflakeIdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WeixinUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WxPayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/XmlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxPayUtil/XMLUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AiLiPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AppWxPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/WxPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$AliyunSmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$TencentSmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/properties/SmsProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/AliyunSmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/SmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/TencentSmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult$SmsResultBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/exception/SmsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysLogininfor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOperLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOssConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserOnline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssBo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssConfigBo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/MetaVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/RouterVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssConfigVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserExportVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserImportVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictDataMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysLogininforMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOperLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssConfigMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysPostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleDeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserPostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/runner/SystemApplicationRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDataScopeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictDataService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysLogininforService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOperLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysPostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysLoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysRegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDataScopeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictDataServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysLogininforServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOperLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysPostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysSensitiveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysLogininforMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysOperLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysOssConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysOssMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysUserPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-system/target/classes/mapper/system/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blq-ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-xxl-job-admin.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/blq-admin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/blq-admin.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/BlqServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/common/CaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/CacheController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysLogininforController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysOperlogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/monitor/SysUserOnlineController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysConfigController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDeptController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictDataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysDictTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysIndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysNoticeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssConfigController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysOssController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysPostController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/classes/com/blq/web/controller/system/SysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/blq-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/blq-framework-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RateLimiterAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/aspectj/RepeatSubmitAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/AsyncConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/CaptchaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/DruidConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/FilterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig$I18nLocaleResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/I18nConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/JacksonConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MailConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ResourcesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SaTokenConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/TLogConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ThreadPoolConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/UndertowConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/ValidatorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/CaptchaProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ExcludeUrlProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/MailProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$CacheGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$ClusterServersConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties$SingleServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/RedissonProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SecurityProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties$Groups.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/SwaggerProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/ThreadPoolProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/config/properties/XssProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/CreateAndUpdateMetaObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/handler/PlusDataPermissionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusDataPermissionInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/interceptor/PlusWebInvokeTimeInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/jackson/BigNumberSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/listener/UserActionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/manager/ShutdownManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/dao/PlusSaTokenDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/satoken/service/SaPermissionImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/classes/com/blq/framework/web/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/blq-generator-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/config/GenConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/controller/GenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/domain/GenTableColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableColumnMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/mapper/GenTableMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/GenTableServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/service/IGenTableService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/GenUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/classes/com/blq/generator/util/VelocityUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-generator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/blq-oss-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/constant/OssConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/core/OssClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult$UploadResultBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/entity/UploadResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/enumd/PolicyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/exception/OssException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/factory/OssFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/classes/com/blq/oss/properties/OssProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-oss/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/blq-pay-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/aliUtils/AlipayUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/Md5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/OrderUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/PayForUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/SnowflakeIdWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WXPayConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WeixinUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/WxPayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/utils/XmlUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxPayUtil/XMLUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AiLiPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/AppWxPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/classes/com/blq/wxpay/WxPay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-pay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/blq-sms-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$AliyunSmsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig$TencentSmsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/SmsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/config/properties/SmsProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/AliyunSmsTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/SmsTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/core/TencentSmsTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult$SmsResultBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/entity/SmsResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/classes/com/blq/sms/exception/SmsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/blq-system-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysLogininfor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysNotice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOperLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysOssConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleDept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysRoleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserOnline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/SysUserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssBo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/bo/SysOssConfigBo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/MetaVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/RouterVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssConfigVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysOssVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserExportVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/domain/vo/SysUserImportVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/listener/SysUserImportListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysConfigMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictDataMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysDictTypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysLogininforMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysNoticeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOperLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssConfigMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysOssMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysPostMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleDeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysRoleMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserPostMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/mapper/SysUserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/runner/SystemApplicationRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDataScopeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictDataService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysDictTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysLogininforService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysNoticeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOperLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysOssService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysPostService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/ISysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysLoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysPermissionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/SysRegisterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysConfigServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDataScopeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDeptServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictDataServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysDictTypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysLogininforServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysNoticeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOperLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssConfigServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysOssServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysPostServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysSensitiveServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/classes/com/blq/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blq-system/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mintty.exe.stackdump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/blq-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-admin/blq-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-common/blq-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-common/blq-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-framework/blq-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-framework/blq-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/blq-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/blq-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/java/com/blq/generator/util/VelocityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/java/com/blq/generator/util/VelocityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/bo.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/bo.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/service.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/serviceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/vo.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/blq-generator/src/main/resources/vm/java/vo.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-oss/blq-oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-oss/blq-oss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-pay/blq-pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-pay/blq-pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-sms/blq-sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-sms/blq-sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-system/blq-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blq-system/blq-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blq-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blq-vue-plus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/sys-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/sys-console.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/sys-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/sys-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/sys-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/sys-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,9 +794,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/WorkInfo/Muju/Muju",
+    "last_opened_file_path": "E:/TestDemo/SpringBootMuBan/blq-exent/blq-xxl-job-admin/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -309,7 +806,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "185a9327e9771af63beaf16e2b17471e"
+    "spring.configuration.checksum": "44265ad2b019c62fac30c87f24ff0eae"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -320,10 +817,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TestDemo\SpringBootMuBan\blq-exent\blq-xxl-job-admin\src\main\resources" />
+      <recent name="E:\TestDemo\SpringBootMuBan\blq-exent\blq-xxl-job-admin\src\main\java" />
+      <recent name="E:\TestDemo\SpringBootMuBan\blq-job\src\main\java\com\blq" />
       <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\aliUtils" />
       <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\wxPayUtil" />
-      <recent name="F:\WorkInfo\Muju\Muju\blq-pay\src\main\java\com\blq\utils" />
-      <recent name="F:\WorkInfo\Muju\Muju\blq-common\src\main\java\com\blq\common\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,6 +846,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XxlJobAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blq-xxl-job-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.admin.XxlJobAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxl.job.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.XxlJobAdminApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBootOptions">
@@ -369,10 +885,22 @@
       <workItem from="1656077225405" duration="9000" />
       <workItem from="1656077264756" duration="107000" />
       <workItem from="1656077397726" duration="124000" />
+      <workItem from="1656300002256" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

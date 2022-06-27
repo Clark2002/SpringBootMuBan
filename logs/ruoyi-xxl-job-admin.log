@@ -1,0 +1,78 @@
+2022-06-27 11:34:25 [main] INFO  c.x.job.admin.XxlJobAdminApplication - Starting XxlJobAdminApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 5548 (E:\TestDemo\SpringBootMuBan\blq-exent\blq-xxl-job-admin\target\classes started by 卜令强 in E:\TestDemo\SpringBootMuBan)
+2022-06-27 11:34:25 [main] INFO  c.x.job.admin.XxlJobAdminApplication - The following 1 profile is active: "dev"
+2022-06-27 11:34:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9100 (http)
+2022-06-27 11:34:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-27 11:34:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 11:34:27 [main] INFO  o.a.c.c.C.[.[.[/xxl-job-admin] - Initializing Spring embedded WebApplicationContext
+2022-06-27 11:34:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms
+2022-06-27 11:34:27 [main] INFO  c.x.j.a.c.scheduler.XxlJobScheduler - >>>>>>>>> init xxl-job admin success.
+2022-06-27 11:34:27 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Starting...
+2022-06-27 11:34:27 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-06-27 11:34:28 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-06-27 11:34:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:28 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9100 is already in use
+2022-06-27 11:34:28 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Start completed.
+2022-06-27 11:34:29 [xxl-job, admin JobScheduleHelper#scheduleThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>> init xxl-job admin scheduler success.
+2022-06-27 11:34:29 [xxl-job, admin JobScheduleHelper#scheduleThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2022-06-27 11:34:30 [xxl-job, admin JobScheduleHelper#ringThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2022-06-27 11:34:30 [main] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2022-06-27 11:34:30 [xxl-job, admin JobLogReportHelper] INFO  c.x.j.a.c.thread.JobLogReportHelper - >>>>>>>>>>> xxl-job, job log report thread stop
+2022-06-27 11:34:30 [xxl-job, admin JobLosedMonitorHelper] INFO  c.x.j.a.c.thread.JobCompleteHelper - >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2022-06-27 11:34:30 [xxl-job, admin JobFailMonitorHelper] INFO  c.x.j.a.c.t.JobFailMonitorHelper - >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2022-06-27 11:34:30 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  c.x.j.a.c.thread.JobRegistryHelper - >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2022-06-27 11:34:30 [main] INFO  c.x.j.a.c.t.JobTriggerPoolHelper - >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2022-06-27 11:34:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Shutdown initiated...
+2022-06-27 11:34:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Shutdown completed.
+2022-06-27 11:34:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:30 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-27 11:34:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:30 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-27 11:34:30 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9100 or configure this application to listen on another port.
+
+2022-06-27 11:34:50 [main] INFO  c.x.job.admin.XxlJobAdminApplication - Starting XxlJobAdminApplication using Java 1.8.0_202 on BLQCOMPUTER with PID 9128 (E:\TestDemo\SpringBootMuBan\blq-exent\blq-xxl-job-admin\target\classes started by 卜令强 in E:\TestDemo\SpringBootMuBan)
+2022-06-27 11:34:50 [main] INFO  c.x.job.admin.XxlJobAdminApplication - The following 1 profile is active: "dev"
+2022-06-27 11:34:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9100 (http)
+2022-06-27 11:34:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-27 11:34:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 11:34:51 [main] INFO  o.a.c.c.C.[.[.[/xxl-job-admin] - Initializing Spring embedded WebApplicationContext
+2022-06-27 11:34:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+2022-06-27 11:34:51 [main] INFO  c.x.j.a.c.scheduler.XxlJobScheduler - >>>>>>>>> init xxl-job admin success.
+2022-06-27 11:34:51 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Starting...
+2022-06-27 11:34:52 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-06-27 11:34:52 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-06-27 11:34:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9100"]
+2022-06-27 11:34:52 [main] INFO  o.a.c.c.C.[.[.[/xxl-job-admin] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 11:34:52 [main] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-27 11:34:52 [main] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-27 11:34:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9100 (http) with context path '/xxl-job-admin'
+2022-06-27 11:34:52 [main] INFO  c.x.job.admin.XxlJobAdminApplication - Started XxlJobAdminApplication in 2.802 seconds (JVM running for 3.743)
+2022-06-27 11:34:52 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Start completed.
+2022-06-27 11:34:54 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=ruoyi-xxl-job-admin, managementUrl=http://192.168.1.136:9100/xxl-job-admin/actuator, healthUrl=http://192.168.1.136:9100/xxl-job-admin/actuator/health, serviceUrl=http://192.168.1.136:9100/xxl-job-admin) at spring-boot-admin ([http://localhost:9090/admin/instances]): I/O error on POST request for "http://localhost:9090/admin/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2022-06-27 11:34:56 [xxl-job, admin JobScheduleHelper#scheduleThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>> init xxl-job admin scheduler success.
+2022-06-27 11:47:36 [xxl-job, admin JobScheduleHelper#scheduleThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2022-06-27 11:47:37 [xxl-job, admin JobScheduleHelper#ringThread] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2022-06-27 11:47:37 [SpringApplicationShutdownHook] INFO  c.x.j.a.c.thread.JobScheduleHelper - >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2022-06-27 11:47:37 [xxl-job, admin JobLogReportHelper] INFO  c.x.j.a.c.thread.JobLogReportHelper - >>>>>>>>>>> xxl-job, job log report thread stop
+2022-06-27 11:47:37 [xxl-job, admin JobLosedMonitorHelper] INFO  c.x.j.a.c.thread.JobCompleteHelper - >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2022-06-27 11:47:37 [xxl-job, admin JobFailMonitorHelper] INFO  c.x.j.a.c.t.JobFailMonitorHelper - >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2022-06-27 11:47:37 [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] INFO  c.x.j.a.c.thread.JobRegistryHelper - >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2022-06-27 11:47:37 [SpringApplicationShutdownHook] INFO  c.x.j.a.c.t.JobTriggerPoolHelper - >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2022-06-27 11:47:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Shutdown initiated...
+2022-06-27 11:47:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP - Shutdown completed.

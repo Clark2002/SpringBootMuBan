@@ -17,6 +17,8 @@
         <module>blq-sms</module>
         <module>blq-system</module>
         <module>blq-pay</module>
+        <module>blq-job</module>
+        <module>blq-exent</module>
     </modules>
     <properties>
         <spring-boot.version>2.6.8</spring-boot.version>
@@ -298,6 +300,12 @@
             <dependency>
                 <groupId>org.blq</groupId>
                 <artifactId>blq-pay</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.blq</groupId>
+                <artifactId>blq-job</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>

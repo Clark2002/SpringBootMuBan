@@ -5,10 +5,18 @@
     <file url="file://$PROJECT_DIR$/blq-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/blq-xxl-job-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/ruoyi-xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/ruoyi-xxl-job-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-exent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-framework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-framework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blq-job/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-oss/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-oss/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blq-pay/src/main/java" charset="UTF-8" />
